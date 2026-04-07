@@ -2,24 +2,54 @@ import QuizQuestion from "../core/QuizQuestion";
 
 const quizData: QuizQuestion[] = [
   {
-    question: "What describes a group of objects that are treated the same way as a single instance of the same type of object?",
-    options: ["Composite", "Strategy", "Facade", "Decorator"],
-    correctAnswer: "Composite",
+    question: "Дэлхийн хамгийн том далай аль нь вэ?",
+    options: ["Атлантын далай", "Номхон далай", "Энэтхэгийн далай", "Хойд мөсөн далай"],
+    correctAnswer: "Номхон далай",
   },
   {
-    question: "What add behavior to an individual object, dynamically, without affecting the behavior of other objects from the same class?",
-    options: ["Adapter", "Decorator", "Facade", "Strategy"],
-    correctAnswer: "Decorator",
+    question: "Хүний биед хамгийн том эрхтэн аль нь вэ?",
+    options: ["Зүрх", "Элэг", "Арьс", "Уушги"],
+    correctAnswer: "Арьс",
   },
   {
-    question: "Which pattern enables selecting an algorithm at runtime by providing a corresponding object implementing the algorithm?",
-    options: ["Adapter", "Iterator", "Strategy", "Composite"],
-    correctAnswer: "Strategy",
+    question: "Нарны аймгийн хамгийн том гараг аль нь вэ?",
+    options: ["Дэлхий", "Санчир", "Бархасбадь", "Ангараг"],
+    correctAnswer: "Бархасбадь",
   },
   {
-    question: "Which of the following traverse a container and access the container's elements without knowing the internals of the container?",
-    options: ["Strategy", "Adapter", "Composite", "Iterator"],
-    correctAnswer: "Iterator",
+    question: "Монголын нууц товчоо анх ямар бичгээр бичигдсэн гэж үздэг вэ?",
+    options: ["Кирилл", "Латин", "Уйгаржин монгол", "Төвд"],
+    correctAnswer: "Уйгаржин монгол",
+  },
+  {
+    question: "Ус хэдэн хэмд буцалдаг вэ?",
+    options: ["90°C", "95°C", "100°C", "110°C"],
+    correctAnswer: "100°C",
+  },
+  {
+    question: "Хамгийн олон хүн амтай улс аль нь вэ?",
+    options: ["Энэтхэг", "Хятад", "АНУ", "Индонез"],
+    correctAnswer: "Энэтхэг",
+  },
+  {
+    question: "Дэлхийн хамгийн өндөр уул аль нь вэ?",
+    options: ["К2", "Эверест", "Килиманжаро", "Элбрус"],
+    correctAnswer: "Эверест",
+  },
+  {
+    question: "Хүний зүрх минутанд дунджаар хэдэн удаа цохилдог вэ?",
+    options: ["40-60", "60-100", "100-120", "120-140"],
+    correctAnswer: "60-100",
+  },
+  {
+    question: "Компьютерийн тархи гэж юуг нэрлэдэг вэ?",
+    options: ["RAM", "CPU", "Hard Disk", "GPU"],
+    correctAnswer: "CPU",
+  },
+  {
+    question: "Монгол улсын нийслэл аль хот вэ?",
+    options: ["Дархан", "Эрдэнэт", "Улаанбаатар", "Чойбалсан"],
+    correctAnswer: "Улаанбаатар",
   },
 ];
 
